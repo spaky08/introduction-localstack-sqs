@@ -86,7 +86,7 @@ También puedes hacer uso de Portainer para ver que esté en ejecución.
 
 Ahora sí, empecemos a crear servicios en LocalStack. **Usaremos la misma app de CLI de amazon pero estableciéndole la ruta a donde se comunicará.**
 
-`aws --endpoint [http://localhost:4566](http://localhost:4566/) --profile localstack` 
+`aws --endpoint http://localhost:4566 --profile localstack` 
 
 *El endpoint por defecto es AWS, esta vez lo será un puerto de nuestro equipo.*
 
